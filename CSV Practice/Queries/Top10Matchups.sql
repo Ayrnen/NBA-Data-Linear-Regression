@@ -1,4 +1,4 @@
-SELECT TOP 10 h.team_abbreviation HomeTea, a.team_abbreviation AwayTeam, COUNT(*) MatchupCount
+SELECT TOP 10 h.team_abbreviation HomeTeam, a.team_abbreviation AwayTeam, COUNT(*) MatchupCount
  FROM HomeGames h
 	JOIN GameInfo g
 	ON h.game_id = g.game_id
